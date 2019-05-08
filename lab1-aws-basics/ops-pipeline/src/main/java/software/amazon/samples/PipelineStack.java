@@ -26,14 +26,14 @@ import java.util.Arrays;
  */
 public class PipelineStack extends Stack {
 
-    private static final String REGIONAL_ARTIFACT_CACHE_BUCKET_NAME = "joappdevone-ap-northeast-1-codebuild-cache";
+    private static final String REGIONAL_ARTIFACT_CACHE_BUCKET_NAME = "abc-ap-southeast-2-codebuild-cache";
 
-    private static final String SECRET_ID = "jousby/github";
-    private static final String SECRET_ID_JSON_FIELD = "oauthToken";
+    private static final String SECRET_ID = "github";
+    private static final String SECRET_ID_JSON_FIELD = "key";
 
     private static final String DOCKER_BUILD_ENV_IMAGE = "jousby/aws-buildbox:1.4.0";
 
-    private static final String GITHUB_OWNER = "jousby";
+    private static final String GITHUB_OWNER = "timl128";
     private static final String GITHUB_REPO = "aws-java-appdev-lab";
     private static final String GITHUB_BRANCH = "master";
     private static final String GITHUB_LAB1_PATH = "lab1-aws-basics";
